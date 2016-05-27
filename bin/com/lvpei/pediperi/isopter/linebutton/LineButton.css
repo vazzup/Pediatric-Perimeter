@@ -1,10 +1,25 @@
-.line-button {
-	-fx-skin: "com.lvpei.pediperi.isopter.linebutton.linebuttonskin.LineButtonSkin";
-	-fx-max-height: 170px;
-	-fx-max-width: 3 px;
-	-fx-background-color: black; 
+.canvas {
+	-fx-background-color: #ffffff;
 }
 
 .line-button {
-	-fx-background-color: blue;
+	-fx-skin: "isopter.linebutton.linebuttonskin.LineButtonSkin";
+	-fx-max-width: 3px;
+	-fx-max-height: 170px;
+	-fx-background-color: rgba(0, 0, 0, 0.25);
+}
+
+.line-button-blue {
+	-fx-skin: "isopter.linebutton.linebuttonskin.LineButtonSkin";
+	-fx-max-width: 3px;
+	-fx-max-height: 170px;
+	-fx-background-color: rgba(0, 0, 255, 0.25);
+}
+
+.line-button:hover {
+	-fx-background-color: rgba(0, 0, 255, 0.5);
+}
+
+.line-button-blue:hover {
+	-fx-background-color: rgba(0, 0, 255, 0.5);
 }

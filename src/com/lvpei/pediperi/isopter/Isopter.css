@@ -1,0 +1,10 @@
+.inner-text {
+	-fx-fill: rgba(0, 0, 0, 0.25);
+	-fx-font-weight: bold;
+	-fx-font-size: 15px;
+}
+
+.outer-text {
+	-fx-font-color: black;
+	-fx-font-size: 12px;
+}

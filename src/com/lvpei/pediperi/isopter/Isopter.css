@@ -5,6 +5,16 @@
 }
 
 .outer-text {
-	-fx-font-color: black;
-	-fx-font-size: 12px;
+	-fx-fill: black;
+	-fx-font-size: 15px;
+}
+
+.outer-text:hover {
+	-fx-fill: rgba(255, 0, 0, 0.5);
+	-fx-font-size: 17px;
+}
+
+.outer-text-selected {
+	-fx-fill: red;
+	-fx-font-size: 15px;
 }
